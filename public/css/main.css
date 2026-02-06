@@ -38,7 +38,7 @@ header p {
 .cta {
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5ac5ff 0, #1a6dc6 100%);
+  background-image: radial-gradient(100% 100% at 100% 0, #5ac5ff 0, #127bb7 100%);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -111,6 +111,7 @@ section {
 
 .card p {
     color: #cbd5f5;
+    font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -145,6 +146,27 @@ section {
     border-color: var(--primary-orange);
 }
 
+.badge {
+    background: radial-gradient(100% 100% at 100% 0, #1e7bae 0, #094668 100%);
+    padding: 4px 0px 4px 0px;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 0px 7px 7px 0px;
+}
+
+.brand_logo {
+    background: #070337;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #d9f2ff;
+    padding: 4px 4px 4px 4px;
+}
+
+.brand_text {
+    padding: 2px 6px 2px 6px;
+}
+
 .sdl {
     color: #cbd5f5;
 }
@@ -153,6 +175,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 24px;
+    font-family: "Roboto", sans-serif;
 }
 
 footer {
